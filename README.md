@@ -4,3 +4,5 @@ Portfolio Updates
 - Resume link
 - Contact information link
 - Portfolio links
+
+- Still working on this.
