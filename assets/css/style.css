@@ -1,3 +1,10 @@
-.aboutContainer, p {
-    margin: 0 18px 0 18px;
+.indexContainer, .aboutContainer, .aboutP, .portfolioContainer {
+    margin: 0 15px 0 15px;
 }
+.dot {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(141, 211, 161);
+    border-radius: 50%;
+    display: inline-block;
+  }

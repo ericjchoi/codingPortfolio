@@ -1,8 +1,6 @@
 # codingPortfolio
 Portfolio Updates 
-- Github, LinkedIn page links
-- Resume link
-- Contact information link
+- About page
+- Resume link (Under Construction)
 - Portfolio links
-
-- Still working on this.
+- Github, LinkedIn, email contact links
