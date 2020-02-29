@@ -8,3 +8,10 @@
     border-radius: 50%;
     display: inline-block;
   }
+  .btn {
+      margin: 0.5rem;
+      width: 11rem;
+  }
+  .btn:hover {
+   width: 11.5rem;
+  }
