@@ -14,7 +14,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <a class="navbar-brand" href="./index.html">Eric Choi</a>
+        <a class="navbar-brand" href="./index.html" style="font-weight: lighter; font-size: 4rem;">Eric Choi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,8 +32,8 @@
                 </li>
             </ul>
         </div>
-    </nav><br><br><br>
 
+    </nav><br><br><br><br><br>
     <div class="portfolioContainer">
         <div class="innerPortfolio">
             <button type="button" class="btn btn-lg btn-outline-info" data-toggle="modal" data-target="#modal1">Psychic
@@ -66,7 +66,8 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-lg btn-outline-secondary" data-toggle="modal" data-target="#modal2">Word Guess Game<br>
+            <button type="button" class="btn btn-lg btn-outline-secondary" data-toggle="modal"
+                data-target="#modal2">Word Guess Game<br>
                 <div class="card-footer bg-transparent border-dark">
                     <h6>JavaScript #2</h6>
                     <a href="https://github.com/ericjchoi/Word-Guess-Game" class="badge badge-success"
@@ -95,7 +96,8 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-lg btn-outline-warning" data-toggle="modal" data-target="#modal3">Crystal Game<br>
+            <button type="button" class="btn btn-lg btn-outline-warning" data-toggle="modal"
+                data-target="#modal3">Crystal Game<br>
                 <div class="card-footer bg-transparent border-secondary">
                     <h6>jQuery #1</h6>
                     <a href="https://github.com/ericjchoi/unit-4-game" class="badge badge-success" style="opacity: 0.8;"
@@ -116,7 +118,8 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            Matching the given number with clicking the gem stones which have unknown numbers assigned. Application developed with jQuery.
+                            Matching the given number with clicking the gem stones which have unknown numbers assigned.
+                            Application developed with jQuery.
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -124,7 +127,8 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-lg btn-outline-danger" data-toggle="modal" data-target="#modal4">RPG Star Wars<br>
+            <button type="button" class="btn btn-lg btn-outline-danger" data-toggle="modal" data-target="#modal4">RPG
+                Star Wars<br>
                 <div class="card-footer bg-transparent border-dark">
                     <h6>jQuery #2</h6>
                     <a href="https://github.com/ericjchoi/RPG-Star-Wars" class="badge badge-success"
@@ -145,12 +149,10 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            One to one space battle role playing game. Player chooses character and opponent. Clicking the attack button proceeds the game. Each round proceeds until one character’s health power becomes 0. When the character defeats all the opponents after each round then the game ends.
-                            Application developed with HTML5, CSS, JavaScript and jQuery used.
-                            
-
-
-
+                            One to one space battle role playing game. Player chooses character and opponent. Clicking
+                            the attack button proceeds the game. Each round proceeds until one character’s health power
+                            becomes 0. When the character defeats all the opponents after each round then the game ends.
+                            Application developed with HTML5, CSS, JavaScript and jQuery.
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -158,7 +160,8 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-lg btn-outline-secondary">Trivia Game I<br>
+            <button type="button" class="btn btn-lg btn-outline-secondary" data-toggle="modal"
+                data-target="#modal5">Trivia Game I<br>
                 <div class="card-footer bg-transparent border-dark">
                     <h6>jQuery #3</h6>
                     <a href="https://github.com/ericjchoi/TriviaGameBasic" class="badge badge-success"
@@ -167,7 +170,31 @@
                         style="opacity: 0.8;" target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-info">Trivia Game II<br>
+            <!-- Modal -->
+            <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal5Label">github.com/ericjchoi/TriviaGameBasic</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            App displays trivia questions and user should answer within given time since the report will
+                            be shown automatically when time is up. All the questions are displyed at once and user
+                            needs to scroll if needed.
+                            Application developed with HTML5, CSS, Bootstrap, JavaScript and jQuery.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-info" data-toggle="modal" data-target="#modal6">Trivia
+                Game II<br>
                 <div class="card-footer bg-transparent border-primary">
                     <h6>jQuery #4</h6>
                     <a href="https://github.com/ericjchoi/TriviaGameAdvanced" class="badge badge-success"
@@ -176,7 +203,31 @@
                         style="opacity: 0.8;" target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-danger">GifTastic using GIPHY
+            <!-- Modal -->
+            <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal6Label">github.com/ericjchoi/TriviaGameAdvanced</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            App displays a trivia question and user should answer within given time since the answer
+                            will be shown after the time interval. Report will
+                            be shown automatically when all the questions are asked.
+                            Application developed with HTML5, CSS, Bootstrap, JavaScript and jQuery.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-danger" data-toggle="modal"
+                data-target="#modal7">GifTastic using GIPHY
                 API<br>
                 <div class="card-footer bg-transparent border-dark">
                     <h6>Ajax</h6>
@@ -186,7 +237,30 @@
                         target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-warning">Train Scheduler<br>
+            <!-- Modal -->
+            <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal7Label">github.com/ericjchoi/GifTastic</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            General (Rate: G) GIFs searching app using GIPHY API. Default status of searched images are
+                            static and it toggles between static and animated status upon user's click-on-image event.
+                            Application developed with HTML5, CSS, Giphy API, Ajax and JavaScript.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-warning" data-toggle="modal" data-target="#modal8">Train
+                Scheduler<br>
                 <div class="card-footer bg-transparent border-secondary">
                     <h6>Firebase</h6>
                     <a href="https://github.com/ericjchoi/FirebaseAssignmentBasic" class="badge badge-success"
@@ -195,7 +269,41 @@
                         style="opacity: 0.8;" target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-info">Study-Buddy<br>
+            <!-- Modal -->
+            <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal8Label">github.com/ericjchoi/FirebaseAssignmentBasic</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Train scheduler application. Add train information in the text-boxes. All fields are
+                            required and must be properly entered with correct data type and format to
+                            avoid display error. Clicking submit button updates Firebase database with newly added train
+                            information appended.
+                            Current train schedule card displays the saved data from Firebase database.
+                            Multiple browsers with the same database url are updated automatically upon every
+                            submission. Clicking the specific delete button removes the corresponding information from
+                            firebase
+                            database. User submission automatically updates for multiple browsers in real time.
+                            User's delete event updates user's browser in real time, and other multiple browsers will be
+                            updated in next available update time.
+                            All multiple browsers will be updated every 60 seconds automatically.
+                            Application developed with HTML5, CSS, Bootstrap, JavaScript, jQuery, Moment.js and
+                            Firebase.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-info" data-toggle="modal"
+                data-target="#modal9">Study-Buddy<br>
                 <div class="card-footer bg-transparent border-primary">
                     <h6>Group project #1</h6>
                     <a href="https://github.com/jlcoden/Study-Buddy" class="badge badge-success" style="opacity: 0.8;"
@@ -204,7 +312,32 @@
                         target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-secondary">LIRI Bot<br>
+            <!-- Modal -->
+            <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal9Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal9Label">github.com/jlcoden/Study-Buddy</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            StudyBuddy is an app designed to let students arrange study sessions. It helps organize your
+                            schedule and strengthen your network. It offers weather data, maps, and directions to study
+                            session meet ups. Application developed with HTML5, CSS, JavaScript, Google Maps and Places
+                            API,
+                            Open Weather API, Materialize and Firebase.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-secondary" data-toggle="modal"
+                data-target="#modal10">LIRI Bot<br>
                 <div class="card-footer bg-transparent border-dark">
                     <h6>Node.js #1</h6>
                     <a href="https://github.com/ericjchoi/liri-node-app" class="badge badge-success"
@@ -213,7 +346,31 @@
                         style="opacity: 0.8;" target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-warning">Bamazon<br>
+            <!-- Modal -->
+            <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal10Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal10Label">github.com/ericjchoi/liri-node-app</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            A command line Node.js application that takes in parameters and give search result back
+                            using APIs.
+                            Application developed with Node.js, Spotify API, OMDB API, Bands in town API, JavacSript,
+                            npm packages and Axios.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-warning" data-toggle="modal"
+                data-target="#modal11">Bamazon<br>
                 <div class="card-footer bg-transparent border-secondary">
                     <h6>MySQL #1</h6>
                     <a href="https://github.com/ericjchoi/bamazon" class="badge badge-success" style="opacity: 0.8;"
@@ -222,7 +379,29 @@
                         target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-danger">Friend Finder<br>
+            <!-- Modal -->
+            <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal11Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal11Label">github.com/ericjchoi/bamazon</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            An Amazon-like commandline store-front Node.js application using MySQL.
+                            Application developed with Node.js, npm packages (inquirer and mysql), JavaScript and MySQL.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-danger" data-toggle="modal"
+                data-target="#modal12">Friend Finder<br>
                 <div class="card-footer bg-transparent border-dark">
                     <h6>Node.js Express.js Ajax Heroku</h6>
                     <a href="https://github.com/ericjchoi/FriendFinder" class="badge badge-success"
@@ -231,7 +410,30 @@
                         style="opacity: 0.8;" target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-info">Eat Da Burger<br>
+            <!-- Modal -->
+            <div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="modal12Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal12Label">github.com/ericjchoi/FriendFinder</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            A compatibility finding server application deployed on Heroku. User submission of suevery
+                            will suggest best matching friend.
+                            Application developed with JavaScript, Node.js, Express.js and Ajax.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-info" data-toggle="modal" data-target="#modal13">Eat Da
+                Burger<br>
                 <div class="card-footer bg-transparent border-primary">
                     <h6>Node.js Express.js Handlebars MVC MySQL Heroku</h6>
                     <a href="https://github.com/ericjchoi/burger" class="badge badge-success" style="opacity: 0.8;"
@@ -240,8 +442,30 @@
                         style="opacity: 0.8;" target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-secondary">Cajarilla
-                Marketplace<br>
+            <!-- Modal -->
+            <div class="modal fade" id="modal13" tabindex="-1" role="dialog" aria-labelledby="modal13Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal13Label">github.com/ericjchoi/burger</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Eat-Da-Burger app is a MySQL CRUD MVC application where users can create, add, update and
+                            delete burger data in MySQL database and render updated results on the browser.
+                            Application developed with JavaScript, Node.js, Express.js, Ajax, MySQL, Handlebars.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-secondary" data-toggle="modal"
+                data-target="#modal14">Cajarilla Marketplace<br>
                 <div class="card-footer bg-transparent border-primary">
                     <h6>Group project #2</h6>
                     <a href="https://github.com/lamashree/Project-2" class="badge badge-success" style="opacity: 0.8;"
@@ -250,7 +474,33 @@
                         style="opacity: 0.8;" target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-info">Mongo_Scraper<br>
+            <!-- Modal -->
+            <div class="modal fade" id="modal14" tabindex="-1" role="dialog" aria-labelledby="modal14Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal14Label">github.com/lamashree/Project-2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Cajarilla Marketplace is an e-commerce application. Users can post items for sale with
+                            detail description of the product. User can view items
+                            that are currently for sale and place offers on items to purchase them. Users who post items
+                            can either accept or reject offers on their items.
+                            Application developed with HTML5, CSS, JavaScript, Node.js, Express.js, Ajax, MySQL,
+                            Sequelize ORM and Google Maps API.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-info" data-toggle="modal"
+                data-target="#modal15">Mongo_Scraper<br>
                 <div class="card-footer bg-transparent border-primary">
                     <h6>Node.js Express.js Handlebars MongoDB Mongoose Heroku</h6>
                     <a href="https://github.com/ericjchoi/Mongo_Scraper" class="badge badge-success"
@@ -259,18 +509,67 @@
                         target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-warning">clicky-game<br>
+            <!-- Modal -->
+            <div class="modal fade" id="modal15" tabindex="-1" role="dialog" aria-labelledby="modal15Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal15Label">github.com/ericjchoi/Mongo_Scraper</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            New York Times news article scraping application where users can scrape the current article
+                            and make notes and save/delete notes. Currently, the note feature is under development.
+                            Application developed with HTML5, CSS, JavaScript, Bootstrap, Express-Handlebars, jQuery,
+                            Axios, npm packages, Node.js, Mongoose ODM and MongoDB.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-warning" data-toggle="modal"
+                data-target="#modal16">clicky-game<br>
                 <div class="card-footer bg-transparent border-primary">
-                    <h6>HTML CSS JavacSript React JSX npm packages</h6>
+                    <h6>HTML5 CSS JavacSript React JSX npm packages</h6>
                     <a href="https://github.com/ericjchoi/clicky-game" class="badge badge-success" style="opacity: 0.8;"
                         target="_blank">Code</a>
                     <a href="https://ericjchoi.github.io/clicky-game/" class="badge badge-danger" style="opacity: 0.8;"
                         target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-danger">google-books<br>
+            <!-- Modal -->
+            <div class="modal fade" id="modal16" tabindex="-1" role="dialog" aria-labelledby="modal16Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal16Label">github.com/ericjchoi/clicky-game</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Clicking game application developed with React. Unduplicated clicks lead the user to win the
+                            game. Wrong click will shake the images and reset the game. Each click will shuffle the
+                            pictures. Beat the high score!
+                            Application developed with HTML5, CSS, JavaScript, React, JSX and npm packages.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-danger" data-toggle="modal"
+                data-target="#modal17">google-books<br>
                 <div class="card-footer bg-transparent border-primary">
-                    <h6>HTML CSS JavaScript Bootstrap Node.js npm packages Google Books API Axios MongoDB mongoose React
+                    <h6>HTML5 CSS JavaScript Bootstrap Node.js npm packages Google Books API Axios MongoDB mongoose
+                        React
                         JSX</h6>
                     <a href="https://github.com/ericjchoi/google-books" class="badge badge-success"
                         style="opacity: 0.8;" target="_blank">Code</a>
@@ -278,7 +577,32 @@
                         style="opacity: 0.8;" target="_blank">Run</a>
                 </div>
             </button>
-            <button type="button" class="btn btn-lg btn-outline-secondary">VolunTeam!<br>
+            <!-- Modal -->
+            <div class="modal fade" id="modal17" tabindex="-1" role="dialog" aria-labelledby="modal17Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal17Label">github.com/ericjchoi/google-books</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Book search application utilizing Google Books API. Users can also save books of interest in
+                            MongoDB. View button will link to the book's information link. Delete button will delete
+                            book data from MongoDB.
+                            Application developed with HTML5, CSS, JavaScript, Bootstrap, Node.js, npm packages, Google
+                            Books API, Axios, MongoDB, Mongoose ODM, React and JSX.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-outline-secondary" data-toggle="modal"
+                data-target="#modal18">VolunTeam!<br>
                 <div class="card-footer bg-transparent border-primary">
                     <h6>Group project #3</h6>
                     <a href="https://github.com/ajperkins92/Project-3" class="badge badge-success" style="opacity: 0.8;"
@@ -287,6 +611,29 @@
                         target="_blank">Run</a>
                 </div>
             </button>
+            <!-- Modal -->
+            <div class="modal fade" id="modal18" tabindex="-1" role="dialog" aria-labelledby="modal18Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal18Label">github.com/ajperkins92/Project-3</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Community-building application built in a group where users can exchange volunteering
+                            information in their community.
+                            Application developed with Node.js, Express.js, React, MongoDB, Mongoose ODM, Materialize,
+                            Google Maps API, Moment and Nodemailer.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <nav class="navbar fixed-bottom bg-white logo">
@@ -300,7 +647,10 @@
             <a href="mailto:ericjongilchoi@gmail.com" class="navbar-brand" target="_blank">
                 <img src="assets/images/envelope.png" width="30" height="30" alt="">
             </a>
-
+            <h4><span class="badge badge-pill badge-dark" style="margin-top: 0.6rem; font-weight: lighter;"><a
+                        href="assets/images/resume_eric_choi_uw_coding.pdf" download style="color:white;">Download
+                        Resume in PDF</a></span>
+            </h4>
         </form>
     </nav><br><br><br>
 

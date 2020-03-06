@@ -15,3 +15,28 @@
   .btn:hover {
    width: 11.5rem;
   }
+  .nav-item {
+      font-size: 2rem;
+      font-weight: lighter;
+  }
+  .aboutP {
+      font-family: unset;
+      font-size: 2.5rem;
+      font-weight: lighter;
+      font-stretch: wider;
+  }
+.line1 {
+    font-size: 2rem;
+}
+.line2 {
+    font-size: 2.2rem;
+}
+.line3 {
+    font-size: 2.4rem;
+}
+.line4 {
+    font-size: 2.6rem;
+}
+.line5 {
+    font-size: 3rem;
+}
