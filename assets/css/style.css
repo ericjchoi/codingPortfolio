@@ -1,4 +1,4 @@
-.indexContainer, .aboutContainer, .aboutP, .portfolioContainer {
+.indexContainer, .aboutContainer, .portfolioContainer {
     margin: 0 15px 0 15px;
 }
 .dot {
@@ -25,4 +25,7 @@
       font-size: 1.5rem;
       font-weight: lighter;
       font-stretch: wider;
+  }
+  .profileImage {
+      margin: auto;
   }
